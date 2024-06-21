@@ -8,6 +8,7 @@
     <LinearLayout
         android:layout_width="325dp"
         android:layout_height="583dp"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,6 +35,6 @@
             android:id="@+id/I"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/btn_iniciar_sesion" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
